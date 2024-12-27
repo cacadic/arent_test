@@ -1,0 +1,45 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "next/typescript",
+    "prettier",
+    "plugin:tailwindcss/recommended",
+    "standard"
+  ],
+  "rules": {
+    "quotes": ["error", "double"],
+    "comma-dangle": [
+      "error",
+      {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "imports": "always-multiline",
+        "exports": "always-multiline",
+        "functions": "never"
+      }
+    ],
+    "semi": ["error", "always"],
+    "space-before-function-paren": [
+      "error",
+      {
+        "anonymous": "always",
+        "named": "never",
+        "asyncArrow": "always"
+      }
+    ]
+  },
+  "overrides": [
+    {
+      "files": ["*.ts"],
+      "rules": {
+        "indent": ["error", 2]
+      }
+    },
+    {
+      "files": ["*.tsx"],
+      "rules": {
+        "indent": ["error", 4]
+      }
+    }
+  ]
+}

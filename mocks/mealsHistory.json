@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "imageUrl": "/images/m01.jpg",
+    "description": "05.21.Morning"
+  },
+  {
+    "id": 2,
+    "imageUrl": "/images/l03.jpg",
+    "description": "05.21.Lunch"
+  },
+  {
+    "id": 3,
+    "imageUrl": "/images/d01.jpg",
+    "description": "05.21.Dinner"
+  },
+  {
+    "id": 4,
+    "imageUrl": "/images/l01.jpg",
+    "description": "05.21.Snack"
+  },
+  {
+    "id": 5,
+    "imageUrl": "/images/m01.jpg",
+    "description": "05.20.Morning"
+  },
+  {
+    "id": 6,
+    "imageUrl": "/images/l02.jpg",
+    "description": "05.20.Lunch"
+  },
+  {
+    "id": 7,
+    "imageUrl": "/images/d02.jpg",
+    "description": "05.20.Dinner"
+  },
+  {
+    "id": 8,
+    "imageUrl": "/images/s01.jpg",
+    "description": "05.21.Snack"
+  }
+]

@@ -1,3 +1,5 @@
+# Arent Test Project
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -6,31 +8,58 @@ First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can start editing the page by modifying `app/(main)/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project uses `next/font` to automatically optimize and load Geist, a new font family for Vercel.
 
-## Learn More
+## Node Version
 
-To learn more about Next.js, take a look at the following resources:
+This project requires Node.js version `v22.12.0`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **app**: Contains the main application pages and layout.
+  - **(main)**: Contains the main pages of the application.
+    - `page.tsx`: The home page.
+    - `record/page.tsx`: The record page.
+    - `recommended/page.tsx`: The recommended page.
+  - `layout.tsx`: The root layout of the application.
+  - `globals.css`: Global CSS styles.
 
-## Deploy on Vercel
+- **components**: Contains the reusable UI components.
+  - `navigation.tsx`: The navigation component.
+  - `footer.tsx`: The footer component.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **sections**: Contains the section components.
+  - `sectionHero.tsx`: The hero section.
+  - `sectionMealHistory.tsx`: The meal history section.
+  - `sectionNavigationInput.tsx`: The navigation input section.
+  - `sectionRecommended.tsx`: The recommended section.
+  - `sectionBodyRecord.tsx`: The body record section.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **ui**: Contains the UI components.
+  - `button.tsx`: The button component.
+  - `buttonScrollToTop.tsx`: The scroll to top button component.
+  - `circularProgress.tsx`: The circular progress component.
+  - `sheet.tsx`: The sheet component.
+  - `drawer.tsx`: The drawer component.
+
+- **mocks**: Contains the mock data used in the application.
+  - `myExcercise.json`
+  - `recommendCardPost.json`
+  - `recommendCardText.json`
+  - `bodyRecords.json`
+  - `mealsHistory.json`
+
+- **lib**: Contains utility functions.
+  - `utils.ts`: Utility functions.
+
+## Contact Information
+
+- **Linh Pham**
+  - Email: phamviethonglinh@gmail.com
+  - Phone: 0366286668

@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Body Record",
+    "description": "自分のカラダの記録",
+    "imageUrl": "/images/MyRecommend-1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "My Exercise",
+    "description": "自分のカラダの記録",
+    "imageUrl": "/images/MyRecommend-2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "My Diary",
+    "description": "自分の日記",
+    "imageUrl": "/images/MyRecommend-3.jpg"
+  }
+]
